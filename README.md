@@ -1,7 +1,9 @@
-# JavaPOO
-+---------------------------------------------------------------+
-|     Push an existing ripository from de command line          |
-+---------------------------------------------------------------+
+## JavaPOO 
+
+Para conectar al repositorio remoto
+```ssh
+	git remote add origin <url>
+```
 
 # git remote add origin https://github.com/jCuate/JavaPOO.git
 # git branch -M main
