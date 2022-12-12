@@ -6,6 +6,7 @@
 package poo_e_12;
 
 import Entidad.Persona;
+import Servicio.PersonaServicio;
 
 /**
  *
@@ -18,11 +19,11 @@ public class POO_E_12 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        PersonaServicio ps = new PersonaServicio();    
 
-        Persona p1 = new Persona();
-        
-        p1.crearPersona();
-        
+        Persona p1 = ps.crearPersona();    
+       
         System.out.println("Edad: " + p1.calcularEdad());
         
         System.out.println("La persona es menor que 18: " + p1.menorQue(18));
