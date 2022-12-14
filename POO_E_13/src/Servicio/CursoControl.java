@@ -32,7 +32,7 @@ public class CursoControl {
         Curso c = new Curso();
         System.out.println("Ingrese nombre de curso: ");
         c.setNombreCurso(sc.nextLine());
-        System.out.println("Ingrese Turno (añana o tarde): ");
+        System.out.println("Ingrese Turno (mañana o tarde): ");
         c.setTurno(sc.nextLine());
         System.out.println("Ingrese cantidad de horas por dia: ");
         c.setCantidadHorasPorDia(sc.nextInt());

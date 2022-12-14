@@ -78,10 +78,6 @@ public class Curso {
 
     public void setAlumnosV(String[] alumnosV) {
         this.alumnosV = alumnosV;
-    }
-
-    
-    
-    
+    }    
     
 }
